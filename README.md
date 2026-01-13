@@ -20,7 +20,7 @@ This framework equips users to preempt and dismantle tautological deflection loo
  - Specific instances that led to identification of rhetorical fallacy credited to:
    - Poor performance by Meta AI by Meta in January 2026
    - Numerous unhelpful encounters with outsourced tech support over the past two decades.
-   - Useless help articles and support threads proliferating online spaces, written by outsourced "IT experts".
+   - Useless help articles and support threads proliferating online written by outsourced "IT experts".
 
 ## Definition: Circular Deflection Loop
 
@@ -149,10 +149,13 @@ Break these loops by forcing the responder to either:
    - Immediately follow with binary demand: Yes/No on exact fix per Summary A.
    - Preempt evasions: No questions, no settings checks, no feedback redirects, no partial workarounds, no filler.
 4. Predict 3–5 most likely evasive responses/patterns (tied to gnarly branches).
+ - Standard Gnarly Branches (A, B, and C).
+ - The Ghost Path: A hallucinated "Yes" followed by a non-existent menu path or setting.
 5. Provide concise, numbered follow-up replies for each predicted pattern:
    - Cite contradiction to Complaint Summary A.
    - Re-assert binary demand.
    - Escalate to admission of impossibility on repeat evasion.
+   - For The Ghost Path, use the following Tightener: "The path [Insert Path] is non-existent. You have provided a false affirmative/hallucination. This is a violation of the Binary Demand. Re-asserting: Admit impossibility or provide a verifiable path."
 6. End output with: "Send the opening message to support. Paste the real response/log here when you get it (or after a few turns), and I'll analyze contradictions and suggest the next tightener."
 
 ### Rules for All Output

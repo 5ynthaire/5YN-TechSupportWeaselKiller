@@ -16,11 +16,11 @@ This framework equips users to preempt and dismantle tautological deflection loo
 **GitHub**: [https://github.com/5ynthaire](https://github.com/5ynthaire)  
 **Mission**: Transcending creative limits through human-AI synergy  
 **Attribution**:
- - Framework and prompt developed with Grok 4.1 by xAI and additional input from Gemini 3 Thinking by Google (no affiliation to either).
+ - Framework and prompt developed with Grok 4.1 by xAI and additional input from Gemini 3 by Google (no affiliation to either).
  - Specific instances that led to identification of rhetorical fallacy credited to:
-   - Poor performance by Meta AI by Meta in January 2026
+   - Poor performance by Meta AI by Meta in January 2026.
    - Numerous unhelpful encounters with outsourced tech support over the past two decades.
-   - Useless help articles and support threads proliferating online written by outsourced "IT experts".
+   - Useless help articles and support threads proliferating online spaces, written by outsourced self-proclaimed "IT experts".
 
 ## Definition: Circular Deflection Loop
 

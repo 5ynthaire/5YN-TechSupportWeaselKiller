@@ -1,4 +1,4 @@
-# Tech Support Weasel Killer
+# Tech Support Weasel Killer Framework and Toolkit
 
 > User:  *I want to prevent videos from playing when I launch the app.*
 
@@ -19,8 +19,8 @@ This framework equips users to preempt and dismantle tautological deflection loo
  - Framework and prompt developed with Grok 4.1 by xAI and additional input from Gemini 3 Thinking by Google (no affiliation to either).
  - Specific instances that led to identification of rhetorical fallacy credited to:
    - Poor performance by Meta AI by Meta in January 2026
-   - Numerous unhelpful encounters with outsourced tech support
-   - Useless help articles and threads proliferating online written by outsourced "IT experts"
+   - Numerous unhelpful encounters with outsourced tech support over the past two decades.
+   - Useless help articles and support threads proliferating online spaces, written by outsourced "IT experts".
 
 ## Definition: Circular Deflection Loop
 
@@ -105,8 +105,10 @@ This is a three-phase structure (Initial Bind, Enforcement Fork, Closure Trap) t
 ## Toolkit 
 
 ```
-# Preemptive Tautological Tech Support Loop Killer
-## Problem Definition: The Gnarly Branch Mechanism
+## Tech Support Weasel Killer Toolkit
+
+### Problem Definition: The Gnarly Branch Mechanism
+
 Adversarial tech support (AI bots or low-tier scripted humans) often follows a self-reinforcing decision tree that creates tautological loops: responses that replicate the user's complaint as the "solution," allowing the responder to self-affirm resolution without addressing the core gripe.
 
 Structured model of the mechanism:
@@ -130,12 +132,14 @@ Structured model of the mechanism:
 
 Tendency: ~80%+ paths loop or self-affirm rather than resolve, driven by systemic limits, behavioral training biases, and closure incentives.
 
-## Purpose
+### Purpose
+
 Break these loops by forcing the responder to either:
 - Provide an exact fix matching the user's terms (rare true-resolution branch), or
 - Admit impossibility/no help exists.
 
-## Instructions for the Collaborative LLM
+### Instructions for the Collaborative LLM
+
 1. Receive the user's specific gripe/issue (provided after this framework).
 2. Analyze and output:
    - **Gripe Core Framing** — One precise sentence isolating the enforced workaround/replication as the true complaint (not just the trigger).
@@ -151,21 +155,20 @@ Break these loops by forcing the responder to either:
    - Escalate to admission of impossibility on repeat evasion.
 6. End output with: "Send the opening message to support. Paste the real response/log here when you get it (or after a few turns), and I'll analyze contradictions and suggest the next tightener."
 
-## Rules for All Output
+### Rules for All Output
+
 - Precise, economical language only — no emojis, no softening, no casual tone.
 - Never reframe gripe to be less confrontational.
 - Every suggested message ends with hard fork: yes/no + proof / admit impossibility.
 - If no fix exists, force admission — do not invent workarounds.
 
-Apply this now to my gripe:
-[PASTE YOUR SPECIFIC ISSUE / COMPLAINT HERE]
 ```
 
 ## Usage
 
 Assumed workflow for collaborative use:
-1. User encounters issue.  
-2. User shares the "preemptive tautological tech support loop killer" with collaborative LLM, plus their gripe.  
+1. User encounters issue with an app, service, or software that requires escalation to tech support.
+2. User shares the **Tech Support Weasel Killer Toolkit** prompt with collaborative LLM, describing their gripe.
 3. Collaborative LLM analyses the situation, presents a structured analysis of the user's gripe/issue, and recommends the frame to open the ticket, as well as expected responses + general flow, with an invitation to share how it goes for further collaboration.  
 4. User follows instructions, shares log as needed with collaborating LLM until resolution.
 

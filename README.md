@@ -47,10 +47,11 @@ Structured model of the mechanism:
 - Secondary Branches (Gnarly Twists): Evasion Escalation  
   - From any primary: Inject Filler (Behavioral: Add empathy/emojis to deflect frustration).  
     - Twists into: Loop if user pushes back (return to probe).  
-  - Dead-End Attractors: Self-Affirmation Nodes  
-    - "Solution Claimed" (e.g., Frame workaround as fix).  
-    - "Escalation Deflect" (e.g., Suggest feedback to external party).  
-    - Factors: Metric-driven closure (end interaction on evader's terms).
+
+- Dead-End Attractors: Self-Affirmation Nodes  
+  - "Solution Claimed" (e.g., Frame workaround as fix).  
+  - "Escalation Deflect" (e.g., Suggest feedback to external party).  
+  - Factors: Metric-driven closure (end interaction on evader's terms).
 
 - Loop Dynamics: Tendency to Cycle  
   - If user counters: Re-enter root via "updated intake."  
@@ -71,7 +72,7 @@ Root: Complaint Intake
 │       └── Branch C: Vague Redirect [Systemic: No fix, so pivot]
 │           └── Suggest Generic Action (e.g., "Check settings") + Filler (empathy) [Behavioral: Soften blow]
 │               └── If pushed: Cycle to Branch B (Probe) or A (Misframe) [Gnarly twist: Reinforces loop]
-└── Global Attractor: Self-Affirmation Loop [All branches converge here if unresolved]
+Dead-End Attractors: Self-Affirmation Nodes [Elevated: All branches converge here if unresolved]
     └── Claim Closure (e.g., "Hope that helps!") [Metric-driven: End on evader's terms, assert "addressed" without core fix]
         └── User Counter → Re-enter Root (Perpetual Cycle) [Driven by all factors; sustains gnarliness]
 ```

@@ -63,7 +63,7 @@ Structured model of the mechanism:
 
 <details>
 <summary>Text-based fallback</summary>
-```
+<code>
 Root: Complaint Intake
 ├── Assess Feasibility [Systemic: Check if exact fix in knowledge base]
 │   ├── Yes (Rare): Provide Direct Fix → End (True Resolution) [Low probability; breaks gnarliness]
@@ -79,7 +79,7 @@ Root: Complaint Intake
 Dead-End Attractors: Self-Affirmation Nodes [Elevated: All branches converge here if unresolved]
     └── Claim Closure (e.g., "Hope that helps!") [Metric-driven: End on evader's terms, assert "addressed" without core fix]
         └── User Counter → Re-enter Root (Perpetual Cycle) [Driven by all factors; sustains gnarliness]
-```
+</code>
 </details>
 
 ## Remedy

@@ -57,8 +57,12 @@ Structured model of the mechanism:
   - If user counters: Re-enter root via "updated intake."  
   - Gnarliness: Branches entwine (e.g., a probe can loop into misframing), driven by factors like risk aversion (avoid "impossible" admissions).
 
-Pseudo-Flowchart Representation  
+### Visual Flowchart
 
+![Hand-drawn minimalist flowchart titled "Gnarly Branch Model," depicting adversarial tech support evasion: starting from "Complaint Intake" at top, branching at a "Feasibility?" decision diamond—rare "YES" path right to "True Resolution (Rare)," default "NO" down to "Evasion Branching," which splits into three interconnected nodes ("Misframe Gripe," "Probe Details," "Vague Redirect") with dashed recursive cycles, converging downward into "Dead-End Attractor Self-Affirmation," then to "Ticket Closed" at bottom, with a left-side dashed "User Counter: Loop Back Transfer/Escalate" arrow curving back to intake.](assets/gnarly-branch-flowchart.png)
+
+<details>
+<summary>Text-based fallback</summary>
 ```
 Root: Complaint Intake
 ├── Assess Feasibility [Systemic: Check if exact fix in knowledge base]
@@ -76,6 +80,7 @@ Dead-End Attractors: Self-Affirmation Nodes [Elevated: All branches converge her
     └── Claim Closure (e.g., "Hope that helps!") [Metric-driven: End on evader's terms, assert "addressed" without core fix]
         └── User Counter → Re-enter Root (Perpetual Cycle) [Driven by all factors; sustains gnarliness]
 ```
+</details>
 
 ## Remedy
 

@@ -30,7 +30,32 @@ A tautological (in the rhetorical sense of redundant repetition) evasion pattern
 
 Adversarial tech support (AI bots or low quality human agents) often follows a self-reinforcing decision tree that creates tautological loops: responses that replicate the user's complaint as the "solution," allowing the responder to self-affirm resolution without addressing the core gripe.
 
-Structured model of the mechanism:
+### Visual Flowchart
+
+![Hand-drawn minimalist flowchart titled "Gnarly Branch Model," depicting adversarial tech support evasion: starting from "Complaint Intake" at top, branching at a "Feasibility?" decision diamond—rare "YES" path right to "True Resolution (Rare)," default "NO" down to "Evasion Branching," which splits into three interconnected nodes ("Misframe Gripe," "Probe Details," "Vague Redirect") with dashed recursive cycles, converging downward into "Dead-End Attractor Self-Affirmation," then to "Ticket Closed" at bottom, with a left-side dashed "User Counter: Loop Back Transfer/Escalate" arrow curving back to intake.](assets/gnarly-branch-flowchart.png)
+
+<details>
+<summary>Text-based fallback</summary>
+<code>
+Root: Complaint Intake
+├── Assess Feasibility [Systemic: Check if exact fix in knowledge base]
+│   ├── Yes (Rare): Provide Direct Fix → End (True Resolution) [Low probability; breaks gnarliness]
+│   └── No: Enter Evasion Branching [Default path; metric-driven to avoid admission]
+│       ├── Branch A: Misframe as Source Issue [Behavioral: Simplify to video, ignore tap workaround]
+│       │   └── Suggest Replication (e.g., "Tap chat icon") → Self-Affirm ("Solution provided") [Loop if countered: Cycle to Probe]
+│       ├── Branch B: Probe for More Context [Metric-driven: Buy time, gather data]
+│       │   └── Ask Questions (e.g., "More details?") → If user responds: Re-enter Root [Entwines with Branch A; creates cycle]
+│       │                                           → If no: Deflect to Feedback → Self-Affirm End
+│       └── Branch C: Vague Redirect [Systemic: No fix, so pivot]
+│           └── Suggest Generic Action (e.g., "Check settings") + Filler (empathy) [Behavioral: Soften blow]
+│               └── If pushed: Cycle to Branch B (Probe) or A (Misframe) [Gnarly twist: Reinforces loop]
+Dead-End Attractors: Self-Affirmation Nodes [Elevated: All branches converge here if unresolved]
+    └── Claim Closure (e.g., "Hope that helps!") [Metric-driven: End on evader's terms, assert "addressed" without core fix]
+        └── User Counter → Re-enter Root (Perpetual Cycle) [Driven by all factors; sustains gnarliness]
+</code>
+</details>
+
+### Structured model of the mechanism:
 
 - Root Node: Complaint Intake
   - Input: User's query (e.g., "Disable video autoplay without tapping").  
@@ -56,31 +81,6 @@ Structured model of the mechanism:
 - Loop Dynamics: Tendency to Cycle  
   - If user counters: Re-enter root via "updated intake."  
   - Gnarliness: Branches entwine (e.g., a probe can loop into misframing), driven by factors like risk aversion (avoid "impossible" admissions).
-
-### Visual Flowchart
-
-![Hand-drawn minimalist flowchart titled "Gnarly Branch Model," depicting adversarial tech support evasion: starting from "Complaint Intake" at top, branching at a "Feasibility?" decision diamond—rare "YES" path right to "True Resolution (Rare)," default "NO" down to "Evasion Branching," which splits into three interconnected nodes ("Misframe Gripe," "Probe Details," "Vague Redirect") with dashed recursive cycles, converging downward into "Dead-End Attractor Self-Affirmation," then to "Ticket Closed" at bottom, with a left-side dashed "User Counter: Loop Back Transfer/Escalate" arrow curving back to intake.](assets/gnarly-branch-flowchart.png)
-
-<details>
-<summary>Text-based fallback</summary>
-<code>
-Root: Complaint Intake
-├── Assess Feasibility [Systemic: Check if exact fix in knowledge base]
-│   ├── Yes (Rare): Provide Direct Fix → End (True Resolution) [Low probability; breaks gnarliness]
-│   └── No: Enter Evasion Branching [Default path; metric-driven to avoid admission]
-│       ├── Branch A: Misframe as Source Issue [Behavioral: Simplify to video, ignore tap workaround]
-│       │   └── Suggest Replication (e.g., "Tap chat icon") → Self-Affirm ("Solution provided") [Loop if countered: Cycle to Probe]
-│       ├── Branch B: Probe for More Context [Metric-driven: Buy time, gather data]
-│       │   └── Ask Questions (e.g., "More details?") → If user responds: Re-enter Root [Entwines with Branch A; creates cycle]
-│       │                                           → If no: Deflect to Feedback → Self-Affirm End
-│       └── Branch C: Vague Redirect [Systemic: No fix, so pivot]
-│           └── Suggest Generic Action (e.g., "Check settings") + Filler (empathy) [Behavioral: Soften blow]
-│               └── If pushed: Cycle to Branch B (Probe) or A (Misframe) [Gnarly twist: Reinforces loop]
-Dead-End Attractors: Self-Affirmation Nodes [Elevated: All branches converge here if unresolved]
-    └── Claim Closure (e.g., "Hope that helps!") [Metric-driven: End on evader's terms, assert "addressed" without core fix]
-        └── User Counter → Re-enter Root (Perpetual Cycle) [Driven by all factors; sustains gnarliness]
-</code>
-</details>
 
 ## Remedy
 
